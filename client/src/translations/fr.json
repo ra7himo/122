@@ -1,0 +1,45 @@
+{
+  "brand": "122",
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "gallery": "Galerie",
+    "about": "À propos",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "cta_call": "Appeler maintenant",
+  "hero_title": "Shawarma qui fait envie à Sidi Bel Abbès",
+  "hero_subtitle": "Fraîche, généreuse et rapide — parfaite pour les familles et les collègues.",
+  "sections": {
+    "highlights": "Pourquoi 122 ?",
+    "menu_preview": "Nos incontournables",
+    "hours": "Horaires",
+    "address": "Adresse",
+    "map": "Carte"
+  },
+  "about": {
+    "title": "Notre histoire",
+    "content": "Chez 122, on prépare une shawarma savoureuse avec des ingrédients frais et une cuisson maîtrisée. Ambiance conviviale pour familles et collègues."
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Téléphone",
+    "find_us": "Nous trouver"
+  },
+  "admin": {
+    "login_title": "Connexion Admin",
+    "email": "Email",
+    "password": "Mot de passe",
+    "login": "Se connecter",
+    "dashboard": "Tableau de bord",
+    "logout": "Se déconnecter",
+    "settings": "Paramètres",
+    "menu": "Menu",
+    "gallery": "Galerie",
+    "save": "Enregistrer",
+    "add": "Ajouter",
+    "update": "Mettre à jour",
+    "delete": "Supprimer"
+  }
+}

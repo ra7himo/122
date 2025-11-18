@@ -1,0 +1,27 @@
+:root{ --brand:#ff4d4f; --text:#111; --muted:#666; --bg:#fff; --bg-soft:#f7f7f7 }
+*{box-sizing:border-box} html,body,#root{height:100%}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;color:var(--text);background:var(--bg)}
+a{text-decoration:none;color:inherit}
+.container{max-width:1080px;margin:0 auto;padding:0 16px}
+.nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:1000}
+.nav .inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;font-weight:800;font-size:22px;letter-spacing:0.5px}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--brand);display:inline-block;margin-left:8px}
+.nav-links{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid transparent;transition:all .2s ease;font-weight:600}
+.btn.primary{background:var(--brand);color:#fff}.btn.ghost{border-color:#ddd;color:var(--text);background:#fff}
+.hero{background:linear-gradient(180deg,#fff,var(--bg-soft));padding:48px 0 28px}
+.hero .title{font-size:38px;line-height:1.15;margin:0 0 12px}.hero .subtitle{color:var(--muted);margin:0 0 24px}
+.grid{display:grid;gap:18px}.cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{border:1px solid #eee;border-radius:12px;padding:16px;background:#fff}
+.section{padding:28px 0}.section h2{margin:0 0 12px}
+.menu-grid{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.item img{width:100%;height:180px;object-fit:cover;border-radius:10px;border:1px solid #eee}
+.item h3{margin:10px 0 6px}.badge{font-size:12px;background:#111;color:#fff;border-radius:6px;padding:3px 6px;margin-right:8px}
+.footer{padding:24px 0;background:#111;color:#fff;margin-top:28px}.footer a{color:#fff;text-decoration:underline}
+table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid #eee;text-align:left}
+html[dir="rtl"] body{font-family:'Noto Naskh Arabic','Segoe UI',Tahoma,Arial,sans-serif}
+html[dir="rtl"] .nav-links{flex-direction:row-reverse}
+html[dir="rtl"] .brand .dot{margin-left:0;margin-right:8px}
+input, textarea, select { width:100%; padding:10px; border:1px solid #ddd; border-radius:8px; background:#fff; color:inherit }
+label { display:block }
