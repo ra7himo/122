@@ -5,11 +5,10 @@
     "menu": "Menu",
     "gallery": "Galerie",
     "about": "À propos",
-    "contact": "Contact",
-    "admin": "Admin"
+    "contact": "Contact"
   },
   "cta_call": "Appeler maintenant",
-  "hero_title": "Shawarma qui fait envie à Sidi Bel Abbès",
+  "hero_title": "Shawarma qui donne envie à Sidi Bel Abbès",
   "hero_subtitle": "Fraîche, généreuse et rapide — parfaite pour les familles et les collègues.",
   "sections": {
     "highlights": "Pourquoi 122 ?",
@@ -27,6 +26,13 @@
     "phone": "Téléphone",
     "find_us": "Nous trouver"
   },
+  "menu_page": {
+  "title": "Menu",
+  "subtitle": "Choisissez votre plat shawarma préféré chez 122 – assiettes, sandwichs et formules à partager.",
+  "all": "Tout",
+  "unavailable": "Indisponible"
+}
+,
   "admin": {
     "login_title": "Connexion Admin",
     "email": "Email",

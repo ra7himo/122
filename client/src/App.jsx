@@ -8,6 +8,7 @@ import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Login from './pages/admin/Login.jsx'
 import Dashboard from './pages/admin/Dashboard.jsx'
+
 export default function App(){
   return (
     <div>
@@ -28,7 +29,9 @@ export default function App(){
     </div>
   )
 }
-function RequireAuth({children}){
-  const token = localStorage.getItem('token'); if(!token) return <Navigate to="/admin/login" replace />
+
+function RequireAuth({ children }){
+  const token = localStorage.getItem('token')
+  if(!token) return <Navigate to="/admin/login" replace />
   return children
 }

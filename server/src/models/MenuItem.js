@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+
 const menuItemSchema = new mongoose.Schema({
   name_fr: { type: String, required: true },
   name_ar: { type: String, default: '' },
@@ -9,4 +10,5 @@ const menuItemSchema = new mongoose.Schema({
   imageUrl: { type: String, default: '' },
   available: { type: Boolean, default: true }
 }, { timestamps: true });
+
 export default mongoose.model('MenuItem', menuItemSchema);
